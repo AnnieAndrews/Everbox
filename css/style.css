@@ -291,3 +291,53 @@ header .hero img {
   position: relative;
   margin: 20px 0 0 0;
 }
+
+/* FOOTER */
+footer {
+  background-color: #002130;
+  background-image: linear-gradient(to top, #008AA5 0%, #008AA5 50%, #002130 50%, #002130 100%);
+  color: #FFFFFF;
+  height:150px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+footer p, footer nav ul {
+  font-size:14px;
+  font-weight:100;
+  text-align: center;
+  margin:10px auto 0;
+}
+footer nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+footer nav ul li a {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+footer .right-footer-block {
+  background-color: transparent;
+}
+footer .logo {
+  padding: 2.35em 0;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width:992px){
+  footer{
+    background-color:#008AA5;
+    background-image: linear-gradient(to left, #008AA5 0%, #008AA5 33.33337%, #002130 33.33337%, #002130 100%);
+    height: 100px;
+  }
+  footer p, footer nav ul{
+    padding: 2em 0;
+    text-align: left;
+  }
+  footer .right-footer-block {
+    background-color: #008AA5;
+  }
+  footer .logo{
+    padding: 2em 0 2em 1.5em;
+  }
+}
