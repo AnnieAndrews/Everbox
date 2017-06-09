@@ -237,6 +237,9 @@ header .hero img {
   line-height:15px;
   font-style:italic;
 }
+.pricing strong {
+  font-weight: bold;
+}
 
 /* TESTIMONIALS */
 .testimonials {
@@ -291,8 +294,41 @@ header .hero img {
   position: relative;
   margin: 20px 0 0 0;
 }
+.testimonials strong {
+  font-weight: bold;
+}
+
+/* QUALITIES */
+.qualities {
+  text-align: center;
+  display:block;
+  position: relative;
+  color: #025F71;
+  font-size: 28px;
+  background: #F0F0F0;
+  padding:2em 0 0 2em;
+  height: 300px;
+  line-height: 40px
+  }
+}
+.qualities ul {
+  margin: 0 auto;
+  padding:4em 0;
+  list-style-type: none;
+}
+.qualities li {
+  list-style-type: none;
+  display:inline-block;
+}
+.qualities .btn {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size:18px;
+  margin-bottom:20px;
+  font-weight:100;
+}
 
 /* FOOTER */
+
 footer {
   background-color: #002130;
   background-image: linear-gradient(to top, #008AA5 0%, #008AA5 50%, #002130 50%, #002130 100%);
