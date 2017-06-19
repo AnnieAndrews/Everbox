@@ -426,6 +426,13 @@ footer .logo {
   text-align:center;
   margin-right:8px;
 }
+.left-nav .active {
+  color:#FFFFFF;
+  background:#FFC565;
+  text-decoration: none;
+  font-weight: 100;
+}
+
 
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
