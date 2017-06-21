@@ -261,6 +261,7 @@ header .hero img {
   padding:30px;
   width:auto;
   margin:0;
+  border-radius:10px;
 }
 .testimonials blockquote:after {
   top: 100%;
@@ -398,8 +399,8 @@ footer .logo {
 .left-nav.open {
   display:block;
   width:280px;
-  background:#025F71;
-  background-image: linear-gradient(206deg, #5F81a3 0%, #025F71 94%);
+  background:#002130;
+  background-image: linear-gradient(206deg, #002130 0%, #9E9E9E 94%);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -413,7 +414,7 @@ footer .logo {
 .hamburger {
   position: absolute;
   z-index:1000;
-  background:#34495e;
+  background:#9CE3D3;
   color:#FFFFFF;
   text-decoration:none;
   font-size:22px;
@@ -427,8 +428,8 @@ footer .logo {
     height:100vh;
     width:14.66666667%;
     color:#FFFFFF;
-    background: #34495e;
-    background-image: linear-gradient(206deg, #5F81a3 0%, #025F71 94%);
+    background: #002130;
+    background-image: linear-gradient(206deg, #002130 0%, #9E9E9E 94%);
     float:left;
     position:fixed;
     display:block;
@@ -445,8 +446,8 @@ footer .logo {
 
 
 .left-nav .site-logo{
-  padding:20px 0;
-  background: ##008AA5;
+  padding:20px 0 20px;
+  background: ##007E96;
   display:block;
   text-align:center;
 }
@@ -483,6 +484,7 @@ footer .logo {
   background-color:#FFC565;
   text-decoration: none;
   font-weight: 100;
+  border-radius:1px;
 }
 
 
@@ -530,15 +532,16 @@ footer .logo {
   width:98%;
   position:relative;
 }
+
 .content .header {
   margin:0 1% 20px;
 }
 .content .header h1 {
-  font-family:"Lato", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-family:"Roboto", "open sans", sans-serif;
+  font-weight: bold;
   margin:0 0 30px;
   font-size: 36px;
-  color: #3498db;
+  color: #002130;
   line-height:44px;
   float:left;
   display:inline-block;
@@ -614,10 +617,14 @@ footer .logo {
   position: absolute;
   height:100%;
   width:auto;
-  top:0;
-  left:0;
+  top:50%;
+  left:50%;
   right:0;
+  margin:0;
+  margin-right:50%;
+  transform: translate(-50%, -50%)
 }
+
 .item-box h2 {
   font-family:'Lato', helvetica, arial, sans-serif;
   font-weight:700;
@@ -626,7 +633,7 @@ footer .logo {
   margin:0;
 }
 .item-box h2 a {
-  color: #3498db;
+  color: #025F71;
   text-decoration: none;
 }
 .item-box h2 img {
@@ -637,16 +644,17 @@ footer .logo {
   margin-right:5px;
 }
 .item-box p {
-  font-size:14px;
-  color: #333333;
-  line-height: 18px;
+  font-size:12px;
+  font-weight:lighter;
+  color: #9E9E9E;
+  line-height: 15px;
   margin:5px 0 0;
 }
 
-/* Dropdown Button */
+/* Settings Dropup Button */
 .dropbtn {
     width:auto;
-    background-color: none;
+    background-color:transparent;
     color: white;
     padding: 6px;
     font-size: 16px;
@@ -680,7 +688,7 @@ footer .logo {
     border-radius:4px;
     height:175px;
     top:-180px;
-    right:-155px;
+    left:-100px;
 }
 
 /* Links inside the dropdown */

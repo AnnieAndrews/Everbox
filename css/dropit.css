@@ -55,8 +55,9 @@
   margin-bottom: 0px;
 }
 .dropit .dropit-open .dropit-submenu li a {
-  color:#34495e;
+  color:#002130;
   text-decoration:none;
   font-family:"Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
+  align-items:center;
 }
